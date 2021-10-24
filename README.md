@@ -28,10 +28,10 @@ Launch MAMP, create a SQL database under phpMyAdmin (create two tables: login an
 
 ### Technical Details
 ![Code Structure](documentation/code_structure.jpg)
-![Receipt](documentation/receipt1.jpg | width=100)
-![Terminal](documentation/terminal.png | width=100)
+![Receipt](documentation/receipt1.jpg)
+![Terminal](documentation/terminal.png)
 
-- OCR utilizes Microsoft Azure Form Recognizer to grab information from a given local image (png, jpg, or pdf) of an commerical receipt, received through the camera scanning function. This information is planned to be parsed from Python to PHP via a JSON format to be processed and stored.
+- OCR utilizes Microsoft Azure Form Recognizer to grab information from a given local image (png, jpg, or pdf) of an commerical receipt, to be received through the camera scanning function. This information is planned to be parsed from Python to PHP via a JSON format to be processed and stored (not yet implemented).
 
 
 <!-- ROADMAP -->
