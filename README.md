@@ -19,7 +19,7 @@ Broke Besties features:
 
 
 ### Technical Details
-![Code Structure](documentation/code_structure.png)
+![Code Structure](documentation/code_structure.jpg)
 TODO
 
 
