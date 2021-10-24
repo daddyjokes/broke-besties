@@ -14,7 +14,7 @@ Broke Besties features:
 
 ### To Run
 
-TODO
+Launch MAMP, create a SQL database under phpMyAdmin (create two tables: login and inputs, each should have the corresponding fields), clone the git repository, install Python 3 and Microsoft Azure.
 
 
 
@@ -28,7 +28,6 @@ TODO
 ![Code Structure](documentation/code_structure.jpg)
 
 - OCR utilizes Microsoft Azure Form Recognizer to grab information from a given local image (png, jpg, or pdf) of an commerical receipt, received through the camera scanning function. This information is planned to be parsed from Python to PHP via a JSON format to be processed and stored.
-- TODO
 
 
 <!-- ROADMAP -->
