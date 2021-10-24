@@ -1,0 +1,309 @@
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAnsSUYevIWzgPDA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofINeaBTMnFcQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Architects Daughter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/architectsdaughter/v11/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg4-7jA-U.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Fascinate Inline';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/fascinateinline/v12/jVyR7mzzB3zc-jp6QCAu60poNqIy5grIfDfySZU.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Cutive Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cutivemono/v9/m8JWjfRfY7WVjVi2E-K9H6RCTm6o39uc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*home page*/
+#button1 {
+  /*background-color: rgb(45, 0, 89);*/
+  background-image: url("../img/nbg8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:'Cutive Mono', "sans-serif", "monospace";
+  font-size: 30px;
+  font-weight:bold;
+}
+#button2 {
+  background-image: url("../img/nbg8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:'Cutive Mono', "sans-serif", "monospace";
+  font-size: 30px;
+  font-weight:bold;
+}
+#button3 {
+  background-image: url("../img/nbg8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:'Cutive Mono', "sans-serif", "monospace";
+  font-size: 30px;
+  font-weight:bold;
+}
+#home {
+  background-color: black;
+}
+
+#home h3{
+  font-size:50px;
+  color: white;
+  text-align: center;
+  font-family: 'Fascinate Inline', "sans-serif", "monospace";
+}
+
+.button{
+  border:none;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  font-size: 30px;
+  margin: 80px 20px;
+  cursor: pointer;
+  width:400px;
+  height: 400px;
+  text-align: center;
+  position: relative;
+}
+
+
+
+.center{
+  left: 3%;
+  right: 3%;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Cutive Mono', "sans-serif", "monospace";
+}
+
+
+/*registration page*/
+#registration .label{
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#registration input {
+  height: 35px;
+  width: 250px;
+  font-size: 25px;
+  background-color: rgba(255, 255, 255,0.5);;
+}
+
+#reg{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items:center;
+  margin:auto;
+  background-image: url("../img/nbg8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:800px;
+  padding: 100px;
+  /*border: 4px groove #ffcc99;*/
+  margin-bottom: 80px;
+}
+
+#registration {
+  /*background-image: url("../img/nbg3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  background-color: black;
+  font-family: 'Cutive Mono', "sans-serif", "monospace";
+  color:white;
+ }
+
+#regHeader {
+  text-align:center;
+  font-size:45px;
+  margin-bottom: 2px;
+}
+
+#timeFrame {
+  font-size: 23px;
+  height: 35px;
+  width: 130px;
+}
+
+#regform {
+  font-size: 30px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 30px;
+}
+
+/*login page*/
+#login{
+  text-align: center;
+  background-image: url("../img/nbg7.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  margin-top:0px;
+  padding: 30px;
+  align-self: center;
+  text-align: center;
+  border-right:3px solid white;
+  font-size: 30px;
+  color:white;
+  height:450px;
+}
+
+#regLink {
+  font-size: 30px;
+  text-align: center;
+}/*what's this for*/
+
+#index{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#index-subsets{
+  display:flex;
+  flex-direction: row;
+  margin-top:0px;
+  width:100%;
+  border-top:3px solid white;
+  font-family: 'Cutive Mono', "sans-serif", "monospace";
+  font-weight:bold;
+}
+
+#header{
+  /**/
+  background-color: black;
+  height:250px;
+  width: 100%;
+  padding-top: 30px;
+  margin-top:0px;
+  margin-bottom:0px;
+  color:white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Fascinate Inline', "sans-serif", "monospace";
+}
+
+#index input{
+  height:20px;
+  background-color: rgba(255, 255, 255,0.5);
+}
+
+#loginbutton{
+  height:110px;
+  width:110px;
+  background-color: white;
+}
+
+#register{
+  height:450px;
+  width:100%;
+  font-size: 30px;
+  background-image: url("../img/nbg10.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color:white;
+  padding: 30px;
+
+}
+
+#register-button{
+  height:700px;
+  width:300px;
+  margin-left: 180px;
+  margin-bottom: 100px;
+  background-color:white;
+}
+
+#register form{
+  height:100px;
+  width:100px;
+}
+
+.manual-data {
+  font-size: 50px; text-align: center;
+}
+option{
+  font-size: 38px;
+}
+
+#main {
+  background-image: url(../img/nbg9.png);
+  background-color: black;
+
+}
+input {
+  height: 35px;
+  width: 250px;
+  font-size: 23px;
+  background-color: rgba(235, 235, 235, 0.5);
+}
+
+.label{
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: white;
+}
+
+#regButton {
+  height:100px;
+  width:200px;
+  margin-bottom: 100px;
+  margin-left: 630px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: white;
+}
+.manual-data {
+  margin:auto;
+  font-size: 50px;
+  text-align: center;
+  color:white;
+}
+
+
+#title {background-image: url(../img/nbg2.png); }
