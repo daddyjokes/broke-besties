@@ -19,14 +19,14 @@ Broke Besties features:
 
 
 ### Technical Details
-![Code Structure](documentation/code_structure)
+![Code Structure](documentation/code_structure.png)
 TODO
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
-![Project Planning](documentation/project_planning)
+![Project Planning](documentation/project_planning.jpg)
 - [x] Implemented OCR
 - [x] Add user registration and login
 - [x] Add saving goals
