@@ -14,6 +14,8 @@ Broke Besties features:
 
 ### To Run
 
+[Demo](https://www.youtube.com/watch?v=XAb1x7VS5nU)
+
 Launch MAMP, create a SQL database under phpMyAdmin (create two tables: login and inputs, each should have the corresponding fields), clone the git repository, install Python 3 and Microsoft Azure.
 
 
