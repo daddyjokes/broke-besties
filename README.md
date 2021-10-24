@@ -19,23 +19,27 @@ Broke Besties features:
 
 
 ### Technical Details
-
+![Code Structure](documentation/code_structure)
 TODO
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
-
+![Project Planning](documentation/project_planning)
 - [x] Implemented OCR
 - [x] Add user registration and login
 - [x] Add saving goals
 - [x] Add expense tags
-- [] Implement a point reinforcement system
-- [] Launch a full app
+- [ ] Implement a point reinforcement system
+- [ ] Launch a full app
 
 
 
 <!-- THE TEAM -->
 ## The Team
-Muchen Zhang (Team Lead), Christine Hu, Lasya Reeni, Devin Zhang
+![The Team](documentation/theteam.jpg)
+- Muchen Zhang (Team Lead)
+- Christine Hu
+- Lasya Reeni
+- Devin Zhang
